@@ -1,0 +1,62 @@
+body {
+  background: #07021f;
+}
+
+#timeBox {
+  margin-top: 10%;
+  /* border: 2px solid #fff; */
+}
+
+#time {
+  position: relative;
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 200;
+  font-size: 10rem;
+  text-align: center;
+  /* border: 2px solid #fff; */
+}
+
+#timer-buttons {
+  position: relative;
+  top: 80%;
+  left: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10rem;
+  height: auto;
+  padding: 1rem;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  /* border: 2px solid #fff; */
+}
+
+#start-stop-box {
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  /* border: 2px solid #fff; */
+}
+
+#timer-start,
+#timer-stop {
+  position: absolute;
+  color: #219ebc;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+#timer-stop {
+  display: none;
+}
+
+#timer-reset {
+  color: #f72585;
+  font-size: 4rem;
+  cursor: pointer;
+  /* border: 2px solid #fff; */
+}
